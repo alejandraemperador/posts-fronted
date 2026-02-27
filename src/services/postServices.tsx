@@ -1,7 +1,7 @@
 import axios from "axios";
 import type { CreatePostDTO, Post } from "../types/Post";
 
-const API_URL = "https://posts-api-five.vercel.app/"
+const API_URL = "https://posts-api-five.vercel.app/api/posts"
 
 export const getPosts = async (): Promise <Post[]> => {
     const response = await axios.get (API_URL)
