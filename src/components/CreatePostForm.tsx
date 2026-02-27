@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react"
-import type { CreatePostDTO } from "../types/Post"
+import type { CreatePostDTO} from "../types/Post"
 
 export default function CreatePostForm({ onCreate }: { onCreate: (post: CreatePostDTO) => void }) {
     const [imageUrl, setImageUrl] = useState("")
