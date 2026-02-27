@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import type { CreatePostDTO, Post } from "../../types/Post"
-import { createPost, deletePost, getPosts } from "../../services/PostServices"
+import { createPost, deletePost, getPosts } from "../../services/postServices"
 import PostCard from "../../components/PostCard";
 import CreatePostForm from "../../components/CreatePostForm";
 
